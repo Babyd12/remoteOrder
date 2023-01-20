@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From pc</title>
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="src/css/style.css">
@@ -18,49 +19,50 @@
 </head>
 
 <body>
-    <div class="content">
-            <nav class="nav-bar">    
-                <i class='bx bx-menu sidebarOpen' ></i>
-                <span class="logo navLogo"><a href="#">InWork</a></span>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">InWork</a></span>
 
-                <div class="menu">
-                    <div class="logo-toggle">
-                        <span class="logo"><a href="#">CodingLab</a></span>
-                        <i class='bx bx-x siderbarClose'></i>
-                    </div>
-
-                    <ul class="nav-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Restau Fav</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">CodingLab</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
                 </div>
 
-                <div class="darkLight-searchBox">
-                    <div class="dark-light">
-                        <i class='bx bx-moon moon'></i>
-                        <i class='bx bx-sun sun'></i>
-                    </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Restau Fav</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
 
-                    <div class="searchBox">
-                    <div class="searchToggle">
-                        <i class='bx bx-x cancel'></i>
-                        <i class='bx bx-search search'></i>
-                    </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
 
-                        <div class="search-field">
-                            <input type="text" placeholder="Search...">
-                            <i class='bx bx-search'></i>
-                        </div>
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </div>
+    </nav>
 
-        <section class="imgBox"> 
+    <section class="imgBox"> 
             <!-- Swiper -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
                 </div>
@@ -88,19 +90,20 @@
                 <div class="swiper-slide">
                     <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
                 </div>
-                </div>
-                <div class="swiper-pagination"></div>
             </div>
-        </section>
-    </div>
+            <div class="swiper-pagination"></div>
+        </div>  
+        
+    </section>
 
-    <script src="src/js/front.js"></script>
+<script src="src/js/front.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
-    <script src="src/swiperJS/effectCoverflow.js"> </script>
+    <script src="src/swiperJs/effectCoverflow.js"></script>
+
 
 </body>
 </html>

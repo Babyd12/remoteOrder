@@ -239,13 +239,16 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 
-/*IMG BOX FROM SWIPER JS*/
-/* FRONT IMAGE FROM SWIPER*/
-.content .imgBox{
-    width: 300px;
-    justify-content:flex-end;
-}
+/*IMG BOX FROM SWIPER*/
+.imgBox{
+    width: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    position:absolute;
+    right: 0;
+    top:25vh;
 
+}
 .swiper {
     width: 100%;
     padding-top: 50px;
@@ -255,14 +258,16 @@ body.dark .search-field i{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
   }
 
   .swiper-slide img {
     display: block;
-    width: 100%;
+    max-width: 100%;
   }
+
+
 
 
 @media (max-width: 790px) {
