@@ -242,7 +242,7 @@ body.dark .search-field i{
 /*IMG BOX FROM SWIPER JS*/
 /* FRONT IMAGE FROM SWIPER*/
 .content .imgBox{
-    width: 700px;
+    width: 300px;
     justify-content:flex-end;
 }
 
