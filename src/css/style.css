@@ -291,6 +291,10 @@ body.dark .search-field i{
 }
 
 /* FRONT IMAGE FROM SWIPER*/
+.content .imgBox{
+    width: 700px;
+    justify-content:flex-end;
+}
 .swiper {
     width: 100%;
     padding-top: 50px;
