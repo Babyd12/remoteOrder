@@ -239,6 +239,32 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 
+/*IMG BOX FROM SWIPER JS*/
+/* FRONT IMAGE FROM SWIPER*/
+.content .imgBox{
+    width: 700px;
+    justify-content:flex-end;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
 @media (max-width: 790px) {
     nav .nav-bar .sidebarOpen{
         display: block;
@@ -289,27 +315,3 @@ body.dark .search-field i{
         margin-top: 20px;
     }
 }
-
-/* FRONT IMAGE FROM SWIPER*/
-.content .imgBox{
-    width: 700px;
-    justify-content:flex-end;
-}
-
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
