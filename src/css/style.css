@@ -245,7 +245,7 @@ body.dark .search-field i{
     display: flex;
     justify-content: flex-start;
     position:absolute;
-    right: 0;
+    right:0;
     top:25vh;
 
 }
